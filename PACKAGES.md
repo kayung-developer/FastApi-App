@@ -1,4 +1,4 @@
-# Packages Used in FastAPI Geospatial Application
+# Packages Used in FastAPI Application
 
 This document outlines the key Python packages used in the FastAPI Geospatial Application, along with their purposes and recommended versions.
 
