@@ -29,7 +29,7 @@ This FastAPI application provides endpoints for managing and analyzing geospatia
 - Clone the Repository
 
 ```bash
-git clone https://github.com/kayung/fastapi-app.git
+git clone https://github.com/kayung-developer/FastApi-App.git
 cd fastapi-app
  ``` 
 - Set Up the Virtual Environment
