@@ -1,48 +1,48 @@
-# Packages
+# Packages Used in FastAPI Geospatial Application
 
-## Information Gathering
+This document outlines the key Python packages used in the FastAPI Geospatial Application, along with their purposes and recommended versions.
 
-- [sqlmap](https://github.com/sqlmapproject/sqlmap)
-  Automatic SQL injection and database takeover tool
-- [Striker](https://github.com/s0md3v/Striker)
-  Recon & Vulnerability Scanning Suite
-- [Sublist3r](https://github.com/aboul3la/Sublist3r)
-  Fast subdomains enumeration tool for penetration testers
-- [sherlock](https://github.com/sherlock-project/sherlock)
-  Hunt down social media accounts by username across social networks
-- [S3Scanner](https://github.com/sa7mon/S3Scanner)
-  A tool to find open S3 buckets and dump their contents
-- [gitGraber](https://github.com/hisxo/gitGraber)
-  Search and find sensitive data in real time for GitHub
-- [HydraRecon](https://github.com/aufzayed/HydraRecon)
-  Simple recon tool
+## FastAPI
 
-## Networking
+- **Version:** 0.95.0
+- **Purpose:** FastAPI is used for building APIs with Python. It provides a straightforward and fast way to create APIs with automatic interactive documentation.
 
-- [nmap](https://github.com/nmap/nmap)
-  the Network Mapper
-- [bettercap](https://github.com/bettercap/bettercap)
-  Swiss army knife for network attacks and monitoring
+## Uvicorn
 
-## Web Apps
+- **Version:** 0.22.0
+- **Purpose:** Uvicorn is an ASGI server implementation that is used to run the FastAPI application. It provides high-performance asynchronous handling of HTTP requests.
 
-- [XSStrike](https://github.com/s0md3v/XSStrike)
-  Advanced XSS Detection Suite
-- [Photon](https://github.com/s0md3v/Photon)
-  Incredibly fast crawler designed for OSINT
+## SQLAlchemy
 
-## Passwords
+- **Version:** 1.4.45
+- **Purpose:** SQLAlchemy is a SQL toolkit and Object-Relational Mapping (ORM) library for Python. It provides a powerful and flexible way to work with SQL databases.
 
-- [cupp](https://github.com/Mebus/cupp)
-  Common User Passwords Profiler
-- [Cr3d0v3r](https://github.com/D4Vinci/Cr3d0v3r)
-  Your best friend in credential reuse attacks
-- [Hash-Buster](https://github.com/s0md3v/Hash-Buster)
-  Why crack hashes when you can bust them?
-- [changeme](https://github.com/ztgrace/changeme)
-  A default credential scanner
+## Psycopg2-binary
 
-## Obfuscation
+- **Version:** 2.9.6
+- **Purpose:** Psycopg2-binary is a PostgreSQL adapter for Python. It allows Python applications to connect to PostgreSQL databases and execute SQL queries.
 
-- [Cuteit](https://github.com/D4Vinci/Cuteit)
-  IP obfuscator made to make a malicious ip a bit cuter
+## GeoPandas
+
+- **Version:** 0.12.2
+- **Purpose:** GeoPandas is used for working with geospatial data in Python. It extends the pandas library to include support for spatial data types and operations.
+
+## Rasterio
+
+- **Version:** 1.3.8
+- **Purpose:** Rasterio is a library for reading and writing raster datasets in Python. It provides functions to manipulate and analyze raster data formats.
+
+## Pydantic
+
+- **Version:** 1.10.7
+- **Purpose:** Pydantic is a data validation and settings management library for Python. It is used in FastAPI for defining data schemas and validating input data.
+
+## Shapely
+
+- **Version:** 2.0.1
+- **Purpose:** Shapely is a Python library for geometric operations. It provides geometric objects (e.g., points, lines, polygons) and functions to perform spatial operations.
+
+## Python-dotenv
+
+- **Version:** 1.0.0
+- **Purpose:** Python-dotenv is used for managing environment variables in Python projects. It allows developers to load environment variables from a `.env` file into the application's environment.
